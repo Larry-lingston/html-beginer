@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+
+}
+
+.head{
+  background-color: rgb(252, 0, 0);
+  border-end-end-radius: 800px;
+  height: 8vh;
+  font-family: Algerian;
+  font-size: large;
+  text-align: center;
+  text-decoration-color: rgba(56, 50, 50, 0.041);
+  padding-top: 20px;
+  width: 100vh;
+  box-shadow: 0px 0px 15px 0px black;
+}
+ a:hover{
+  background-color: rgb(255, 0, 0);
+  transform: scale(.90);
+  font-weight: bolder;
+  color: rgba(255, 251, 0, 0.644);
+  box-shadow: 0px 0px 35px 10px;
+
+
+}
+.bimg{
+  background-image: url(./Self1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 95vw;
+  height: fit-content;
+  
+  
+}
+a{
+ border: rgb(255, 0, 0);
+ border-radius: 10px;
+ border-spacing: 50px;
+ border-width: 0px; 
+ background-color: none;    
+font-size: 20px;
+font-family: Arial;
+text-decoration: none;
+
+
+}
+
+
+.mainview{
+  margin-top: 1px;
+    background-color:  rgb(255, 0, 0);
+    box-shadow: 0px 0px 15px 5px;
+    width: 100vw;
+    height: fit-content;
+
+}
+.image img{
+  margin: 10px;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0px 0px 27px 0px rgba(255, 255, 255, 0.733);
+  border-radius: 500px;
+  
+}
+
+.image{
+  padding-left: 80%;
+  margin: 0px;
+}
+.ltext img{
+  width: 250px;
+  height: 250px;
+  margin-top: 60px;
+
+}
+
+.rtext{
+  font-family: Arial;
+  font-size:medium;
+  font-weight: 100;
+  margin-top: 60px;
+  padding-left: 30px;
+
+  
+}
+abbr{
+  text-decoration: none;
+  font-weight: 1000;
+}
+.text{
+  display: flex;
+  align-items: justify;
+}
+

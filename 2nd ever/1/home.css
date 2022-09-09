@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./b4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: absolute;
+    width: absolute;
+   animation: theoframes 20s ease 5s infinite;
+   animation-name: theoframes;
+}
+.navbar{
+    justify-content: space-between;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    display: flex;
+    width: 50%;
+}
+a{
+  margin-top: 20px;
+  margin-left: 80px;  
+  text-decoration: none;
+  border-radius: 50px;
+  border-width: 0px;
+  color: black;
+  border-style: solid;
+  cursor: pointer;
+}
+a:active{
+    text-decoration: underline;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    transform: scale(.90);
+    font-size: larger;
+}
+.mtext{
+    margin-top: 150px;
+    margin-right: 800px;
+    margin-left: 80px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(12, 10, 10);
+    align-items: center;
+    width: 700px;
+}
+button{
+    margin-top: 30px;
+    font-family: Arial;
+    font-size: large;
+    font-weight: bolder;
+    background-color: transparent;
+    color: rgb(26, 23, 23);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: outside;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    max-width: absolute;
+    z-index: 1;
+    font-weight: large;
+    font-size: large;
+    color: black;
+    font-family: Arial;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  @keyframes theoframes {
+    0%   {background-image: url(./b4.webp);}
+    25%  {background-image: url(./b7.jpg);}
+    50%  {background-image: url(./b3.jpg);}
+    75%  {background-image: url(./b2.webp);}
+    100% {background-image: url(./b5.webp);}
+  }

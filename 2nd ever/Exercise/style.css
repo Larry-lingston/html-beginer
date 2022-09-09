@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#count-el{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 10rem;
+}
+#increament-btn{
+    border: none;
+    background-color: red;
+    padding: 30px;
+    font-size: xx-large;
+    font-weight:  bold;
+    color: white;
+    border-radius: 10px;
+    float: right;
+    margin-top: 200px;
+    margin-right: 700px;
+}
+#decreament-btn{
+    border: none;
+    background-color: red;
+    padding: 30px;
+    font-size: xx-large;
+    font-weight:  bold;
+    color: white;
+    border-radius: 10px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 700px;
+
+}
+
+body{
+    background-color: grey;
+}
+#save-btn{
+    font-weight: bold;
+    font-size: 10rem;
+    border: none;
+    background-color: red;
+    padding: 30px;
+    font-size: xx-large;
+    color: white;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 950px;
+}

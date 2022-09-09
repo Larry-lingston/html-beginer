@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.red{
+    background-image: url(./p1.jpg);
+}
+.bimg{
+    background-image: url(./p1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: absolute;
+    height: 30vh;
+    background-size: 100% 100%;
+    
+  }
+.nav{
+    background-image: url(./b2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 65px;
+    height: 80px;
+    width: 60%; 
+    box-shadow: 0px 10px 35px 15px;   
+}
+a{
+    color: blue;
+    border-radius: 10px;
+    border-spacing: 50px;
+    border-width: 0px; 
+    background-color: transparent;    
+   font-size: 20px;
+   font-family: Arial;
+   text-decoration: none;
+
+   }
+   a:hover{
+       transform: scale(.80);
+       background-color: transparent;
+       border-radius: 15px;
+       font-weight: bolder;
+       color: rgba(255, 251, 0, 0.644);
+       box-shadow: 0px 0px 5px 0px;
+   }
+   a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+   }
+
+.menunav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    padding-left: 850px;
+    width: 36vw;
+    height: 80px;    
+}
+
+.image{
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-left: 1199px;
+  
+}
+.pimage{
+    height: 600px;
+    width: 400px;
+    border-radius: 20px;
+}
+.Home{
+    display: flex;
+    margin: 0px;
+    padding: 20px;
+    background-image: url(./p1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rtext{
+text-align: justify;
+font-size: larger;
+font-family: Arial;
+margin: 50px;
+}

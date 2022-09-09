@@ -1,0 +1,21 @@
+
+
+.d-block {
+	width: inherit;
+	height: 400px;
+}
+
+.nav-link {
+	margin-left: 50px;
+}
+
+.btn {
+	float: right;
+	border-radius: 50px;
+}
+
+.btn-sm {
+	border-radius: 50px;
+	border: none;
+	margin-top: 10px;
+}
